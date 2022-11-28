@@ -9,4 +9,4 @@ for i in range(11,21,2):
     x += i
     print(i)
 
-range(7,0,-1) # integers from 7 to 1
+# range(7,0,-1) # integers from 7 to 1
