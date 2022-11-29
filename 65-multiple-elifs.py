@@ -1,3 +1,4 @@
+
 color = input("What's your favorite color?")
 if color == 'purple':
 	print("excellent choice!")
