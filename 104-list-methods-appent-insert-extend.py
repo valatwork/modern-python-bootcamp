@@ -7,7 +7,7 @@ first_list.append(5)
 print(first_list) # [1, 2, 3, 4, 5]
 
 
-# extend - add to the end of a list all values passed to extend
+# extend - add multiple items to the end of the list
 
 first_list = [1, 2, 3, 4]
 
