@@ -10,7 +10,7 @@ fruit = "banana"
 ripeness = "unripe"
 print(f"The {fruit} is {ripeness}")
 
-# print("The {} is {}" .format(fruit, ripeness)) old syntax, to keep in mind for Udemy
+# print("The {} is {}" .format(fruit, ripeness)) old syntax, to keep in mind for Udemy as it runs an older Python version
 
 # Using .format()
 

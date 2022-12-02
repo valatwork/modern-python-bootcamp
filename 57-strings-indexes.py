@@ -1,4 +1,4 @@
-# count starting from 0, left to right
+# count starts from 0, left to right
 
 answer = "yessir"
 answer[0]

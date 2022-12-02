@@ -1,4 +1,4 @@
-# string concatenation
+# string concatenation example
 
 greeting = "hello"
 name = "Heisenberg"

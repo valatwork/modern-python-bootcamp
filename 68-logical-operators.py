@@ -1,8 +1,8 @@
-# and   truthy if both a AND b are true (logical conjunction)
+# and:   truthy if both a AND b are true (logical conjunction)
 
-# or    truthy if either a OR b are true (logical disjunction)
+# or:    truthy if either a OR b are true (logical disjunction)
 
-# not   truthy if the opposite of a is true (logical negation)
+# not:   truthy if the opposite of a is true (logical negation)
 
 # print("Enter your age")
 # age = int(input())

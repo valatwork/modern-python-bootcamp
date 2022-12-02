@@ -1,3 +1,4 @@
+#   truthyness
 #   == truthy if a has the same value as b
 
 #    != truthy if a does NOT have the same value as b
