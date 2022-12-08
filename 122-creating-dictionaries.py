@@ -17,3 +17,12 @@ another_dictionary = dict(key = 'value')
 another_dictionary # {'key': 'value'}
 
 cat2 = dict(name='kitty', age=0.5)
+
+
+# addendum: create a dictionary from a nested list
+
+person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+
+answer = {x[0]:x[1] for x in person}
+
+dict(person) # this works as we have a list of pairs
