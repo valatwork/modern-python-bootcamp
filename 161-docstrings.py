@@ -7,4 +7,6 @@ def say_hello():
 
 say_hello.__doc__ # 'A simple function that returns the string hello'
 
+from random import random
+
 random.randint.__doc__
