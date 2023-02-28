@@ -1,7 +1,8 @@
 # return
 # Exits the function
 # Outputs whatever value is placed after the return keyword, could be a tuple
-# Pops the function off of the call stack (the 'to do list' for all the tasks that python has to in executing the code)
+# Pops the function off of the call stack (the 'to do list' for all the tasks that python has to do in executing the code)
+# return is used to return the result of a function when called
 
 def print_square_of_7():
     print(7**2)
