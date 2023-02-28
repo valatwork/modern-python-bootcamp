@@ -90,12 +90,20 @@ def yell(word):
 
 ### execise 3
 
-def speak(animal="dog"):
+# def speak(animal="dog"):
+#     noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
+#     noise = noises.get(animal)
+#     if noise:
+#         return noise
+#     return "?"
+
+def speak(animal):
     noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
     noise = noises.get(animal)
     if noise:
         return noise
     return "?"
+speak("dog")
 
 # other solution
 
@@ -110,3 +118,23 @@ def speak(animal="dog"):
         return "woof"
     else:
         return "?"
+
+# other solution
+
+def speak(animal="dog"):
+    noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
+    noise = noises.get(animal)
+    if noise:
+        return noise
+    return "?"
+
+# other solution 
+
+def speak(animal='dog'):
+    noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
+    return noises.get(animal, '?')
+
+# def speak(animal):
+#     noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
+#     return noises.get(animal, '?')
+# speak('duck')
