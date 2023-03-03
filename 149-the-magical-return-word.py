@@ -1,7 +1,8 @@
 # return
 # Exits the function
 # Outputs whatever value is placed after the return keyword, could be a tuple
-# Pops the function off of the call stack (the 'to do list' for all the tasks that python has to in executing the code)
+# Pops the function off of the call stack (the 'to do list' for all the tasks that python has to do in executing the code)
+# return is used to return the result of a function when called
 
 def print_square_of_7():
     print(7**2)
@@ -89,12 +90,20 @@ def yell(word):
 
 ### execise 3
 
-def speak(animal="dog"):
+# def speak(animal="dog"):
+#     noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
+#     noise = noises.get(animal)
+#     if noise:
+#         return noise
+#     return "?"
+
+def speak(animal):
     noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
     noise = noises.get(animal)
     if noise:
         return noise
     return "?"
+speak("dog")
 
 # other solution
 
@@ -109,3 +118,23 @@ def speak(animal="dog"):
         return "woof"
     else:
         return "?"
+
+# other solution
+
+def speak(animal="dog"):
+    noises = {"dog": "woof", "pig": "oink", "duck": "quack", "cat": "meow"}
+    noise = noises.get(animal)
+    if noise:
+        return noise
+    return "?"
+
+# other solution 
+
+def speak(animal='dog'):
+    noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
+    return noises.get(animal, '?')
+
+# def speak(animal):
+#     noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
+#     return noises.get(animal, '?')
+# speak('duck')
