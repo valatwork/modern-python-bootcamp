@@ -1,3 +1,4 @@
+'''
 # Write a function interleave  that accepts two strings.  
 # It should return a new string containing the 2 strings interwoven or zipped together. For example:
 
@@ -12,10 +13,12 @@
 # 3. For each of the tuples in the list, join them together using "".join  resulting in ['hn', 'io']  - Easiest if you use a list comp.  You need to join EACH tuple.
 # 4. Finally, join the items in the list together using "".join  again resulting in 'hnio'  
 
+'''
+
 def interleave(str1,str2):
     return ''.join(''.join(x) for x in (zip(str1,str2)))
 
-
+'''
 # Here's a detailed walkthrough.  I know it can be overwhelming, but try to step through one piece at a time if you get stuck.
 
 # * I start by defining interleave , which accepts 2 strings: str1, and str2
@@ -26,6 +29,6 @@ def interleave(str1,str2):
 #     * Finally, join all the remaining strings into one large string
 #         * it results in 'hnio' 
 #     * Return the result!
-
+'''
 def interleave(str1,str2):
     return ''.join(''.join(x) for x in (zip(str1,str2)))
