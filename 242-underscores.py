@@ -1,6 +1,6 @@
 ## __name__
 
-# dunder methods, no touchy as this is somthing Python looks for
+# Python specific methods
 
 ## _name
 
