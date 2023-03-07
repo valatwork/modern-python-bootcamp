@@ -11,16 +11,13 @@ class User:
     
     def initials(self):
         return f"{self.first[0]}.{self.last[0]}."
-    
-	def likes(self, thing):
+    def likes(self, thing):
 		return f"{self.first} likes {thing}"
-
-	def is_senior(self):
+    def is_senior(self):
 		return self.age >= 65
-
-	def birthday(self):
-		self.age += 1
-		return f"Happy {self.age}th birthday, {self.first}"
+    def birthday(self):
+	self.age += 1
+	return f"Happy {self.age}th birthday, {self.first}"
 
     # def say_hi():
     #     print("HELLO!")
