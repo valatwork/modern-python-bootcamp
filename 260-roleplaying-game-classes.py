@@ -9,5 +9,10 @@ class NPC(Character):
         super().__init__(name,hp,level)
     
     def speak(self):
-        return f"{self.name} says: 'I heard monsters running around last night!"
+        return f"{self.name} says: 'I heard monsters running around last night!'"
         #  return "{0} says: 'I heard monsters running around last night!'".format(self.name) - old format for Udemy
+
+villager = NPC("Bob", 100, 12)
+villager.speak()  # "I heard there were monsters running around last night!".
+
+print(villager.speak())
