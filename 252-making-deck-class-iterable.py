@@ -71,6 +71,7 @@ class Deck:
     def deal_hand(self, hand_size):
         """
         Returns a list of Cards
+       
         """
         return self._deal(hand_size)
 
