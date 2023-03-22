@@ -35,3 +35,17 @@ print(first_list) # [1, 2, 'Hi!', 3, 4]
 first_list.insert(-1, 'The end!') 
 
 print(first_list) # [1, 2, 'Hi!', 3, 'The end!', 4]
+
+
+## exercise
+
+# Initially create an empty list called instructors
+instructors = []
+# Add the following strings to the instructors list 
+    # "Colt"
+    # "Blue"
+    # "Lisa"
+
+# Run the tests to make sure you've done this correctly!
+
+instructors.extend(["Colt", "Blue", "Lisa"])

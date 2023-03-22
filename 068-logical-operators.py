@@ -1,8 +1,14 @@
 # and:   truthy if both a AND b are true (logical conjunction)
+if a and b:
+    print(c)
 
 # or:    truthy if either a OR b are true (logical disjunction)
-
+if am_tired or is_bedtime:
+    print("go to sleep")
 # not:   truthy if the opposite of a is true (logical negation)
+if not is_weekend:
+    print("go to work")
+
 
 # print("Enter your age")
 # age = int(input())

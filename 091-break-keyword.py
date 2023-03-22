@@ -1,20 +1,29 @@
-# while True:
-#     command = input("Type 'exit' to exit: ")
-#     if (command == "exit"):
-#         break
+# The keyword break gives us the ability to exit out of loops whenever we want:
 
-# for x in range(1, 101):
-#     print(x)
-#     if x == 3:
-#         break
+## example 1
 
-# times = int(input("How many times do I have to tell you? "))
+while True:
+    command = input("Type 'exit' to exit: ")
+    if (command == "exit"):
+        break
+    
+## example 2
 
-# for time in range(times):
-# 	print("CLEAN UP YOUR ROOM!")
-# 	if time >= 3: 
-# 		print("do you even listen anymore?")
-# 		break
+for x in range(1, 101):
+    print(x)
+    if x == 3:
+        break
+
+# adding a break
+
+times = int(input("How many times do I have to tell you? "))
+
+for time in range(times):
+	print("CLEAN UP YOUR ROOM!")
+	if time >= 4: 
+		print("do you even listen anymore?")
+		break
+
 
 # exercise: generate a random number between 1 and 10, storing the result in the number variable
 # every time the loop runs, increment the variable i

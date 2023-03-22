@@ -1,24 +1,28 @@
-# x = 10
-# formatted = f"I've told you {x} times already!"
+# F-Strings
 
-# guess = 8
-# print(f"your guess of {guess} was incorrect!")
-# name = "bluecat"
-# print(f"nice try {name} but your guess of {guess} was incorrect!")
+x = 10
+formatted = f"I've told you {x} times already!"
+formatted = "I've told you {} times already!".format(x)
+# deprecated formatted = "I've told you %d times already!" % (x)
+
+guess = 8
+print(f"your guess of {guess} was incorrect!")
+name = "bluecat"
+print(f"nice try {name} but your guess of {guess} was incorrect!")
 
 fruit = "banana"
 ripeness = "unripe"
 print(f"The {fruit} is {ripeness}")
 
-# print("The {} is {}" .format(fruit, ripeness)) old syntax, to keep in mind for Udemy as it runs an older Python version
+print("The {} is {}" .format(fruit, ripeness)) # old syntax, to keep in mind for Udemy as it runs an older Python version
 
 # Using .format()
 
-# first = "Venus"
-# last = "Williams"
-# formatted = "First Name: {}, Last Name: {}".format(first, last)
+first = "Venus"
+last = "Williams"
+formatted = "First Name: {}, Last Name: {}".format(first, last)
 # Though Udemy's platform doesn't support f-string yet, I think it's a much nicer syntax:
 
 # first = "Venus" 
 # last = "Williams"
-# formatted = f"First Name: {first}, Last Name: {last}"
+formatted = f"First Name: {first}, Last Name: {last}"

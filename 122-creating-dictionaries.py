@@ -1,3 +1,7 @@
+# A data structure that consists of key value pairs.
+# We use the keys to describe our data and the values to represent the data
+
+
 instructor = {
     "name": "Colt",
     "owns_dog": True,
@@ -26,3 +30,9 @@ person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
 answer = {x[0]:x[1] for x in person}
 
 dict(person) # this works as we have a list of pairs
+
+
+'''
+Create a dictionary called user_info  and add at least 3 key value pairs to it (totally up to you what they are)
+'''
+user_info = {'city': 'Utrecht', 'job': 'ITFSE', 'house': 'apartment'}
